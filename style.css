@@ -40,12 +40,12 @@ h1{
     
 
 }
-@media(max-width: 400px){
+/* @media(max-width: 400px){
     .content{
         max-height: 90vh;
         overflow: scroll;
     }
-}
+} */
 ul{
     font-size: larger;
 }
@@ -79,14 +79,7 @@ span{
         font-size: 20px;
     }
 }
-@media(max-width: 700px){
-    .radar{
-       width: 300px ;
-       height: 300px ;
-       border: 8px solid #f7f7f7;
-       box-shadow: 0 0px 8px #c5c5c5;
-    }
-}
+
  .btn-li{
     background-color: none;
     border: none;
@@ -346,7 +339,7 @@ header{
     background-color: green; /* Change to your desired active color */
 }
 .top{
-    position: fixed;
+    position: relative;
     bottom: 10px;
     left: 20px;
     text-decoration: none;
@@ -359,13 +352,13 @@ header{
     color: green;
     text-align: center;
 }
-@media(max-width: 400px){
+/* @media(max-width: 400px){
     .top{
         width: 30px;
         height: 30px;
         font-size: 15px;
     }
-}
+} */
 .demo{
     color: blue;
 }
