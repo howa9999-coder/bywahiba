@@ -6,6 +6,10 @@ body{
 header{
     display: flex;
     justify-content: end;
+    align-items: center;
+}
+.lang{
+    text-decoration: none;
 }
 .icon{
     margin: 20px;
@@ -131,7 +135,7 @@ span{
 }
 .input-field input, textarea{
     min-width: 250px;
-    max-width: 450px;
+    width: 90%;
     height: 50px;
     border-radius: 6px;
     font-size: 15px;
@@ -199,6 +203,7 @@ textarea{
     transform: translateX(-50%);
 } */
 #btn-projects, #btn-contact{
+
     border-radius: 5px;
     border: none;
     background-color: transparent;
@@ -210,17 +215,16 @@ textarea{
 #btn-projects a , #btn-contact a{
     text-decoration: none;
     color: green;
-    font-weight: 500;
-    transition:  0.3s ease; /* Add transition for smooth effect */
 
 }
 
 #btn-projects:hover, #btn-contact:hover{
-    background: linear-gradient(90deg, rgba(0, 128, 0, 0.272), rgba(0, 0, 255, 0.264));
+/*     background: linear-gradient(90deg, rgba(0, 128, 0, 0.272), rgba(0, 0, 255, 0.264));
     background-size: 100%;
     z-index: 10;
-    animation: blink 7s linear infinite;
-}
+    animation: blink 7s linear infinite; */
+    transform: scale(1.1);
+} 
 
 @keyframes blink{
     from{
@@ -361,6 +365,7 @@ header{
 } */
 .demo{
     color: blue;
+    text-decoration: none;
 }
 .thanks{
     text-align: center;
