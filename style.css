@@ -362,3 +362,11 @@ header{
 .demo{
     color: blue;
 }
+.thanks{
+    text-align: center;
+}
+@media(max-width: 600px){
+    .thanks{
+        text-align: justify;
+    }
+}
